@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pesquisa de Opinião</title>
+    <link rel="stylesheet" href="/css/styles.css">
+</head>
+<body>
+    <header>
+        <nav class="transparent-menu">
+            <ul>
+                <li><a href="/">Pesquisa</a></li>
+                <li><a href="/video">Vídeo</a></li>
+                
+            </ul>
+        </nav>
+    </header>
+    <main id="home">
+        
+        <div class="form-container">
+            <form action="/submit" method="post">
+                <h2>Pesquisa de Opinião</h2>
+                <h3>Como a presença de mais mulheres em tecnologia pode impactar a inovação e a sociedade, e como as empresas podem equilibrar a vida profissional e pessoal dessas mulheres?</h3>
+                <label for="nome">Nome:</label>
+                <input type="text" id="nome" name="nome" required>
+                <label for="sobrenome">Sobrenome:</label>
+                <input type="text" id="sobrenome" name="sobrenome" required>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                <label for="opiniao">Opinião:</label>
+                <textarea id="opiniao" name="opiniao" required></textarea>
+                <button type="submit">Enviar</button>
+            </form>
+        </div>
+    </main>
+    
+</body>
+</html>
